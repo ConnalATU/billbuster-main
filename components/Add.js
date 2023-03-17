@@ -20,7 +20,7 @@ export function Add() {
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4000/api/energy', { week, amount, company, date });
+      const response = await axios.post('https://billbuster.azurewebsites.net/api/energy', { week, amount, company, date });
       alert("Thank you, your data has been submitted, click OK to get next week's usage prediction");
       setPrediction(response.data.prediction.toFixed(0));
     } catch (error) {
