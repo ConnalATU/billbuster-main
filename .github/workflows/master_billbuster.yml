@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'BillBuster'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3C30905C6C6E43729F112A40AC570FB1 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_53F29744FF4842B3BB0980B62EB83AE3 }}
           package: .
